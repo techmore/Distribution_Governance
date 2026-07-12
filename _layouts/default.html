@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ page.title }} — {{ site.title }}</title>
+  <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="container">
+    <a class="logo" href="{{ '/' | relative_url }}">{{ site.title }}</a>
+    <nav class="main-nav">
+      <a href="{{ '/' | relative_url }}">Home</a>
+      <a href="{{ '/legal-framework' | relative_url }}">Legal Framework</a>
+      <a href="{{ '/team-roles' | relative_url }}">Team & Roles</a>
+      <a href="{{ '/operating-agreement' | relative_url }}">Operating Agreement</a>
+      <a href="{{ '/pa-nj-context' | relative_url }}">PA/NJ Context</a>
+    </nav>
+    <button class="nav-toggle" aria-label="Menu">☰</button>
+  </div>
+</header>
+
+<main class="container content">
+  {{ content }}
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <p>&copy; {{ site.time | date: '%Y' }} Distribution Governance — For informational purposes only. Not legal advice.</p>
+  </div>
+</footer>
+
+<script>
+  document.querySelector('.nav-toggle')?.addEventListener('click', function() {
+    document.querySelector('.main-nav').classList.toggle('open');
+  });
+</script>
+</body>
+</html>
