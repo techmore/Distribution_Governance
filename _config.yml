@@ -1,7 +1,7 @@
 title: Distribution Governance
 description: Legal & operational framework for a multi-member distribution venture in PA & NJ
-baseurl: ""
-url: "https://distribution-governance.github.io"
+baseurl: "/Distribution_Governance"
+url: "https://techmore.github.io"
 
 markdown: kramdown
 theme: null

@@ -64,7 +64,7 @@ This is the main governance document. Key sections:
 - **Transfer Restrictions** — Rights of first refusal, tag-along/drag-along
 - **Buy-Sell** — Trigger events, valuation method, payment terms
 
-See the [Operating Agreement](/operating-agreement) page for a full breakdown.
+See the [Operating Agreement]({{ '/operating-agreement' | relative_url }}) page for a full breakdown.
 
 ### 2. Vesting Agreement (Sweat Equity)
 

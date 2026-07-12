@@ -39,11 +39,11 @@ Four experienced business owners are pooling their expertise to distribute brand
 
 | Page | What it covers |
 |------|----------------|
-| [Entity Framework](/legal-framework) | LLC vs alternatives, PA filing, tax considerations |
-| [Legal Model](/legal-model) | Entity design + partnership agreement mechanics |
-| [Team & Roles](/team-roles) | Role definitions, equity models, decision rights |
-| [Operating Agreement](/operating-agreement) | Key provisions: capital, distributions, voting, buy-sell |
-| [PA/NJ Context](/pa-nj-context) | Cannabis regulations, licensing, banking, 280E |
+| [Entity Framework]({{ '/legal-framework' | relative_url }}) | LLC vs alternatives, PA filing, tax considerations |
+| [Legal Model]({{ '/legal-model' | relative_url }}) | Entity design + partnership agreement mechanics |
+| [Team & Roles]({{ '/team-roles' | relative_url }}) | Role definitions, equity models, decision rights |
+| [Operating Agreement]({{ '/operating-agreement' | relative_url }}) | Key provisions: capital, distributions, voting, buy-sell |
+| [PA/NJ Context]({{ '/pa-nj-context' | relative_url }}) | Cannabis regulations, licensing, banking, 280E |
 
 <div class="disclaimer">
   <strong>Disclaimer:</strong> This site is for informational purposes only. It does not constitute legal advice. Consult a qualified attorney before forming any entity or signing any agreement.
