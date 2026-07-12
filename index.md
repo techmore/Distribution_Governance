@@ -4,47 +4,47 @@ title: Home
 ---
 
 <div class="hero">
-  <h1>Distribution Governance</h1>
-  <p>A legal and operational framework for a four-member distribution venture serving the Pennsylvania and New Jersey markets.</p>
-  <a href="{{ '/legal-framework' | relative_url }}" class="cta">Explore Legal Structures →</a>
+  <h1>Structuring a four-person<br>distribution venture.</h1>
+  <p class="hero-subtitle">A practical legal and operational framework for four business owners launching a cannabis-adjacent distribution company serving Pennsylvania and New Jersey.</p>
+  <div class="hero-actions">
+    <a href="{{ '/legal-framework' | relative_url }}" class="btn btn-primary">Entity Recommendation →</a>
+    <a href="{{ '/legal-model' | relative_url }}" class="btn btn-secondary">Legal Model →</a>
+  </div>
 </div>
 
-## Overview
+## The Venture
 
-This site lays out the foundational governance and legal considerations for a **multi-member distribution venture** — four experienced business owners combining their expertise to distribute brands (with a focus on cannabis-related products) to retailers across Pennsylvania and New Jersey.
-
-### The Team
+Four experienced business owners are pooling their expertise to distribute brands to retailers across PA and NJ. Each brings a distinct function — funding, operations, sales, and fulfillment — with unequal contributions of capital and labor.
 
 <div class="card-grid">
   <div class="card">
-    <h3>Partner 1 — Funder &amp; Admin</h3>
-    <p>Capital, administration, financial oversight, and high-level governance.</p>
+    <h3>Partner 1</h3>
+    <p><strong>Funder &amp; Admin</strong> — Capital, financial oversight, administration</p>
   </div>
   <div class="card">
-    <h3>Partner 2 — Operations</h3>
-    <p>General accounting, support desk, day-to-day operations management.</p>
+    <h3>Partner 2</h3>
+    <p><strong>Operations</strong> — Accounting, support desk, day-to-day management</p>
   </div>
   <div class="card">
-    <h3>Partner 3 — Sales</h3>
-    <p>Sales acquisition, relationship management, brand partnerships.</p>
+    <h3>Partner 3</h3>
+    <p><strong>Sales</strong> — Acquisition, brand relationships, account management</p>
   </div>
   <div class="card">
-    <h3>Partner 4 — Fulfillment</h3>
-    <p>Logistics, warehousing, order fulfillment, delivery.</p>
+    <h3>Partner 4</h3>
+    <p><strong>Fulfillment</strong> — Logistics, warehousing, delivery</p>
   </div>
 </div>
 
-### Business Model
+## What's Here
 
-Bulk distribution of branded products to retail dispensaries and stores. The venture sources products from brands/manufacturers and supplies a network of retail accounts across PA (medical) and NJ (medical + adult-use).
-
-### Key Questions This Site Addresses
-
-- What is the optimal legal entity structure for this group?
-- How should ownership, voting, and economics be divided among four unequal contributors?
-- What operating agreement provisions are critical for a cannabis-adjacent distribution business?
-- How do PA and NJ regulations affect entity choice and operations?
+| Page | What it covers |
+|------|----------------|
+| [Entity Framework](/legal-framework) | LLC vs alternatives, PA filing, tax considerations |
+| [Legal Model](/legal-model) | Entity design + partnership agreement mechanics |
+| [Team & Roles](/team-roles) | Role definitions, equity models, decision rights |
+| [Operating Agreement](/operating-agreement) | Key provisions: capital, distributions, voting, buy-sell |
+| [PA/NJ Context](/pa-nj-context) | Cannabis regulations, licensing, banking, 280E |
 
 <div class="disclaimer">
-  <strong>Disclaimer:</strong> The content on this site is for informational and educational purposes only. It does not constitute legal advice. You should consult with a qualified attorney licensed in your jurisdiction before forming any business entity or signing any agreement.
+  <strong>Disclaimer:</strong> This site is for informational purposes only. It does not constitute legal advice. Consult a qualified attorney before forming any entity or signing any agreement.
 </div>

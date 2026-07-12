@@ -5,82 +5,91 @@ title: Team & Roles
 
 # Team & Roles
 
-A successful operating agreement clearly defines each member's role, authority, and compensation. Below is a framework tailored to this four-member distribution venture.
+A clear operating agreement defines each member's role, authority, and economics. Here's a framework designed for this four-person distribution venture.
 
 ## Role Definitions
 
-### Partner 1 — Funder & Administration
-**Contributions:** Primary capital infusion, administrative infrastructure
+<div class="section-card">
+  <h3>Partner 1 — Funder & Administration</h3>
+  <p><strong>Contributions:</strong> Primary capital, administrative infrastructure</p>
+  <ul>
+    <li>Provides startup and working capital</li>
+    <li>Establishes banking, accounting systems, internal controls</li>
+    <li>Financial oversight and reporting</li>
+    <li>High-level governance — major expenditures, debt, new member decisions</li>
+    <li>May hold preferred return on capital</li>
+  </ul>
+</div>
 
-- Provides the majority of startup and working capital
-- Establishes banking, accounting systems, and internal controls
-- Financial oversight and reporting
-- High-level governance — signs off on major expenditures, debt, and new member admission
-- May hold a preferred return on capital before other distributions
+<div class="section-card">
+  <h3>Partner 2 — Operations</h3>
+  <p><strong>Contributions:</strong> Time, systems, day-to-day execution</p>
+  <ul>
+    <li>General accounting (AP/AR, reconciliations, tax prep)</li>
+    <li>Customer and vendor support desk</li>
+    <li>Inventory management systems</li>
+    <li>HR and payroll (if applicable)</li>
+  </ul>
+</div>
 
-### Partner 2 — Operations
-**Contributions:** Time, systems, day-to-day management
+<div class="section-card">
+  <h3>Partner 3 — Sales</h3>
+  <p><strong>Contributions:</strong> Relationships, revenue generation</p>
+  <ul>
+    <li>Sales acquisition — onboarding retail accounts</li>
+    <li>Brand relationship management</li>
+    <li>Category management and purchasing</li>
+    <li>Trade marketing and promotions</li>
+    <li>Sales reporting and forecasting</li>
+  </ul>
+</div>
 
-- General accounting (AP/AR, reconciliations, tax prep support)
-- Customer and vendor support desk
-- Inventory management systems
-- HR and payroll (if applicable)
-- Facilities management
+<div class="section-card">
+  <h3>Partner 4 — Fulfillment</h3>
+  <p><strong>Contributions:</strong> Logistics execution, delivery infrastructure</p>
+  <ul>
+    <li>Warehousing and inventory storage</li>
+    <li>Order picking, packing, and delivery</li>
+    <li>Route planning and logistics</li>
+    <li>Returns processing</li>
+    <li>Transportation regulatory compliance</li>
+  </ul>
+</div>
 
-### Partner 3 — Sales
-**Contributions:** Relationships, revenue generation
+## Equity & Economics
 
-- Sales acquisition — onboarding new retail accounts
-- Brand relationship management
-- Category management and purchasing decisions
-- Trade marketing and promotions
-- Sales reporting and forecasting
-
-### Partner 4 — Fulfillment
-**Contributions:** Logistics execution, delivery infrastructure
-
-- Warehousing and inventory storage
-- Order picking and packing
-- Route planning and delivery execution
-- Returns processing
-- Compliance with transportation regulations (especially for cannabis-adjacent products)
-
-## Equity & Economics Considerations
-
-Because contributions are uneven (one partner provides capital, others provide labor and relationships), a **single-class, equal-split structure is unlikely to be fair or sustainable.** Consider these approaches:
+Unequal contributions mean an equal split won't work. Consider one of these models:
 
 | Model | How It Works | Best For |
 |-------|-------------|----------|
-| **Capital-based ownership** | Ownership % based on capital contributed | When capital is the primary driver |
-| **Sweat equity vesting** | Time-based vesting of ownership for operating members | Retaining operating members |
-| **Profit-only units** | Some members get profits but not capital appreciation | Separating capital and labor economics |
-| **Waterfall distributions** | 1. Return of capital → 2. Preferred return → 3. Promote split | Aligning incentives for all roles |
+| **Capital-based ownership** | Ownership % based on capital contributed | Capital-heavy ventures |
+| **Sweat equity vesting** | Time-vested equity for operating members | Retaining operators |
+| **Profit-only units** | Some members get profits but not capital appreciation | Separating capital from labor |
+| **Waterfall distributions** | 1. Return → 2. Preferred → 3. Promote → 4. Residual | Aligning all four roles |
 
-### Suggested Structure (Illustrative)
+### Illustrative Split
 
-| Member | Capital | Ownership | Management Role |
-|--------|---------|-----------|-----------------|
+| Member | Capital | Ownership | Role |
+|--------|---------|-----------|------|
 | Partner 1 | Majority | 40% | Managing Member (Admin/Finance) |
 | Partner 2 | Minority | 25% | Member (Operations) |
 | Partner 3 | Minority | 20% | Member (Sales) |
 | Partner 4 | Minority | 15% | Member (Fulfillment) |
 
-> **Note:** These percentages are purely illustrative. Actual splits should reflect the specific capital contributions, sweat equity, and negotiated value each member brings.
+> These are illustrative. Actual splits depend on negotiated capital, sweat equity, and value each member brings.
 
 ## Decision-Making Authority
 
-A manager-managed LLC structure can allocate authority as follows:
-
-| Decision Type | Authority |
-|---------------|-----------|
-| Day-to-day operations | Partner 2 (Ops) with defined budget authority |
-| Sales pricing & terms | Partner 3 (Sales) within approved ranges |
-| Fulfillment/logistics | Partner 4 (Fulfillment) |
-| Major spending (>$X) | Unanimous or supermajority vote |
-| New member admission | Unanimous consent |
-| Dissolution or sale | Unanimous consent |
-| Debt financing | Majority vote + Partner 1 approval |
+| Decision | Authority |
+|----------|-----------|
+| Day-to-day operations | Partner 2 within budget |
+| Sales pricing & terms | Partner 3 within approved ranges |
+| Fulfillment/logistics | Partner 4 |
+| Major spending (>$X) | Unanimous or supermajority |
+| New member admission | Unanimous |
+| Dissolution or sale | Unanimous |
+| Debt financing | Majority + Partner 1 approval |
 
 <div class="disclaimer">
-  <strong>Disclaimer:</strong> Role definitions and equity structures should be formalized in a written Operating Agreement and reviewed by legal counsel. The above is a conceptual framework, not a binding proposal.
+  <strong>Disclaimer:</strong> Role definitions and equity structures should be formalized in a written Operating Agreement. The above is a conceptual framework.
 </div>

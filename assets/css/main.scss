@@ -1,118 +1,180 @@
 ---
 ---
 
-* {
+$slate-50: #f8fafc;
+$slate-100: #f1f5f9;
+$slate-200: #e2e8f0;
+$slate-300: #cbd5e1;
+$slate-400: #94a3b8;
+$slate-500: #64748b;
+$slate-600: #475569;
+$slate-700: #334155;
+$slate-800: #1e293b;
+$slate-900: #0f172a;
+
+$emerald-50: #ecfdf5;
+$emerald-100: #d1fae5;
+$emerald-200: #a7f3d0;
+$emerald-300: #6ee7b7;
+$emerald-400: #34d399;
+$emerald-500: #10b981;
+$emerald-600: #059669;
+$emerald-700: #047857;
+
+$indigo-50: #eef2ff;
+$indigo-100: #e0e7ff;
+$indigo-500: #6366f1;
+
+$text: $slate-900;
+$text-secondary: $slate-500;
+$bg: #fff;
+$bg-subtle: $slate-50;
+$border: $slate-200;
+$accent: $emerald-600;
+$accent-light: $emerald-100;
+$primary: $slate-900;
+
+*, *::before, *::after {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-$primary: #1a3c34;
-$accent: #2d6a4f;
-$light: #d8f3dc;
-$text: #1a1a2e;
-$bg: #f8faf8;
-$gray: #6c757d;
+html {
+  font-size: 16px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
 
 body {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
   color: $text;
   background: $bg;
   line-height: 1.7;
-  font-size: 16px;
 }
 
 .container {
-  max-width: 960px;
+  max-width: 1000px;
   margin: 0 auto;
-  padding: 0 1.5rem;
+  padding: 0 2rem;
 }
 
-/* Header */
+/* ========== HEADER ========== */
 .site-header {
-  background: $primary;
-  color: #fff;
-  padding: 1rem 0;
+  background: rgba(255,255,255,0.85);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border-bottom: 1px solid $border;
+  padding: 0;
   position: sticky;
   top: 0;
   z-index: 100;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.15);
 }
 
 .site-header .container {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  height: 64px;
 }
 
 .logo {
-  font-size: 1.3rem;
-  font-weight: 700;
-  color: #fff;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
   text-decoration: none;
-  letter-spacing: -0.5px;
+  color: $text;
+  font-weight: 700;
+  font-size: 1.1rem;
+  letter-spacing: -0.3px;
+}
+
+.logo-icon {
+  font-size: 1.3rem;
+  color: $accent;
 }
 
 .main-nav {
   display: flex;
-  gap: 1.5rem;
+  align-items: center;
+  gap: 0.25rem;
 }
 
 .main-nav a {
-  color: #cfe8dc;
+  color: $text-secondary;
   text-decoration: none;
-  font-size: 0.9rem;
+  font-size: 0.875rem;
   font-weight: 500;
-  transition: color 0.2s;
+  padding: 0.4rem 0.75rem;
+  border-radius: 6px;
+  transition: all 0.15s ease;
 }
 
 .main-nav a:hover {
-  color: #fff;
+  color: $text;
+  background: $slate-100;
+}
+
+.main-nav a.active {
+  color: $accent;
+  background: $emerald-50;
+  font-weight: 600;
 }
 
 .nav-toggle {
   display: none;
   background: none;
-  border: none;
-  color: #fff;
-  font-size: 1.5rem;
+  border: 1px solid $border;
+  border-radius: 6px;
+  color: $text-secondary;
+  font-size: 1.25rem;
   cursor: pointer;
+  padding: 0.3rem 0.6rem;
+  line-height: 1;
 }
 
-/* Content */
+/* ========== CONTENT ========== */
 .content {
-  padding: 3rem 1.5rem 4rem;
+  padding: 3rem 0 5rem;
 }
 
 .content h1 {
   font-size: 2rem;
+  font-weight: 700;
+  letter-spacing: -0.5px;
   color: $primary;
   margin-bottom: 1.5rem;
-  padding-bottom: 0.5rem;
-  border-bottom: 3px solid $accent;
 }
 
 .content h2 {
-  font-size: 1.4rem;
+  font-size: 1.35rem;
+  font-weight: 600;
+  letter-spacing: -0.3px;
   color: $primary;
-  margin-top: 2.5rem;
+  margin-top: 3rem;
   margin-bottom: 0.75rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 2px solid $emerald-100;
 }
 
 .content h3 {
-  font-size: 1.15rem;
-  color: $accent;
-  margin-top: 1.5rem;
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: $slate-700;
+  margin-top: 2rem;
   margin-bottom: 0.5rem;
 }
 
 .content p {
   margin-bottom: 1rem;
+  color: $slate-700;
+  line-height: 1.8;
 }
 
 .content ul, .content ol {
-  margin-bottom: 1rem;
-  padding-left: 1.5rem;
+  margin-bottom: 1.25rem;
+  padding-left: 1.25rem;
+  color: $slate-700;
 }
 
 .content li {
@@ -120,179 +182,279 @@ body {
 }
 
 .content a {
-  color: $accent;
-  text-decoration: underline;
-  text-underline-offset: 2px;
+  color: $emerald-600;
+  text-decoration: none;
+  font-weight: 500;
+  border-bottom: 1px solid transparent;
+  transition: border-color 0.15s;
 }
 
 .content a:hover {
-  color: #1f4e3a;
+  border-bottom-color: $emerald-600;
+}
+
+.content p > code, .content li > code {
+  font-family: "SF Mono", "Fira Code", "Fira Mono", monospace;
+  font-size: 0.85em;
+  background: $slate-100;
+  padding: 0.15em 0.4em;
+  border-radius: 4px;
+  color: $slate-800;
 }
 
 .content blockquote {
-  border-left: 4px solid $accent;
-  padding: 0.75rem 1rem;
+  border-left: 3px solid $accent;
+  padding: 1rem 1.25rem;
   margin: 1.5rem 0;
-  background: $light;
-  border-radius: 0 4px 4px 0;
+  background: $emerald-50;
+  border-radius: 0 8px 8px 0;
 }
 
 .content blockquote p {
   margin: 0;
+  color: $slate-700;
 }
 
-.content img {
-  max-width: 100%;
-  height: auto;
+.content hr {
+  border: none;
+  border-top: 1px solid $border;
+  margin: 2.5rem 0;
 }
 
 .content table {
   width: 100%;
   border-collapse: collapse;
-  margin: 1rem 0 1.5rem;
-}
-
-.content th, .content td {
-  border: 1px solid #dde4de;
-  padding: 0.6rem 0.8rem;
-  text-align: left;
+  margin: 1.25rem 0 2rem;
+  font-size: 0.9rem;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.06);
 }
 
 .content th {
-  background: $primary;
-  color: #fff;
+  background: $slate-50;
+  color: $slate-700;
   font-weight: 600;
+  text-align: left;
+  padding: 0.75rem 1rem;
+  border-bottom: 2px solid $border;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
 }
 
-.content tr:nth-child(even) {
-  background: #f0f5f0;
+.content td {
+  padding: 0.7rem 1rem;
+  border-bottom: 1px solid $border;
+  color: $slate-700;
 }
 
-/* Cards */
-.card-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  gap: 1.25rem;
-  margin: 2rem 0;
+.content tr:last-child td {
+  border-bottom: none;
 }
 
-.card {
-  background: #fff;
-  border: 1px solid #dde4de;
-  border-radius: 8px;
-  padding: 1.5rem;
-  box-shadow: 0 1px 4px rgba(0,0,0,0.06);
-  transition: box-shadow 0.2s;
+.content tbody tr:hover {
+  background: $slate-50;
 }
 
-.card:hover {
-  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
-}
-
-.card h3 {
-  margin-top: 0;
-  color: $primary;
-}
-
-.card p {
-  font-size: 0.9rem;
-  color: $gray;
-}
-
-/* Hero */
+/* ========== HERO ========== */
 .hero {
-  background: linear-gradient(135deg, $primary 0%, $accent 100%);
-  color: #fff;
-  padding: 4rem 2rem;
-  border-radius: 10px;
-  margin-bottom: 2.5rem;
-  text-align: center;
+  padding: 4rem 0 3rem;
+  margin-bottom: 2rem;
 }
 
 .hero h1 {
-  font-size: 2.2rem;
-  margin-bottom: 1rem;
+  font-size: 2.5rem;
+  font-weight: 700;
+  letter-spacing: -1px;
+  line-height: 1.2;
+  color: $primary;
   border: none;
-  color: #fff;
+  margin-bottom: 1rem;
   padding: 0;
 }
 
-.hero p {
+.hero .hero-subtitle {
   font-size: 1.15rem;
-  max-width: 650px;
-  margin: 0 auto 1.5rem;
-  opacity: 0.9;
+  color: $text-secondary;
+  max-width: 640px;
+  line-height: 1.7;
+  margin-bottom: 2rem;
 }
 
-.hero .cta {
-  display: inline-block;
-  background: #fff;
-  color: $primary;
-  padding: 0.6rem 1.5rem;
-  border-radius: 6px;
-  text-decoration: none;
-  font-weight: 600;
-  transition: background 0.2s;
+.hero-actions {
+  display: flex;
+  gap: 0.75rem;
+  flex-wrap: wrap;
 }
 
-.hero .cta:hover {
-  background: $light;
-}
-
-/* Disclaimer */
-.disclaimer {
-  background: #fff3cd;
-  border: 1px solid #ffc107;
-  border-radius: 6px;
-  padding: 1rem 1.25rem;
-  margin: 1.5rem 0;
+.btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  padding: 0.6rem 1.25rem;
+  border-radius: 8px;
   font-size: 0.9rem;
-  color: #664d03;
-}
-
-/* Tables */
-.role-table th:first-child,
-.role-table td:first-child {
   font-weight: 600;
+  text-decoration: none;
+  transition: all 0.15s ease;
+  border: none;
+  cursor: pointer;
 }
 
-/* Footer */
-.site-footer {
-  background: $primary;
-  color: #a0c4b6;
-  padding: 1.5rem 0;
+.btn-primary {
+  background: $slate-900;
+  color: #fff;
+}
+
+.btn-primary:hover {
+  background: $slate-700;
+}
+
+.btn-secondary {
+  background: $slate-100;
+  color: $slate-700;
+}
+
+.btn-secondary:hover {
+  background: $slate-200;
+}
+
+/* ========== CARDS ========== */
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1rem;
+  margin: 1.5rem 0;
+}
+
+.card {
+  background: $bg;
+  border: 1px solid $border;
+  border-radius: 10px;
+  padding: 1.5rem;
+  transition: all 0.15s ease;
+}
+
+.card:hover {
+  border-color: $slate-300;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.06);
+}
+
+.card h3 {
+  font-size: 1rem;
+  font-weight: 600;
+  margin-top: 0;
+  margin-bottom: 0.4rem;
+  color: $text;
+}
+
+.card p {
+  font-size: 0.875rem;
+  color: $text-secondary;
+  margin: 0;
+  line-height: 1.6;
+}
+
+/* Section cards (larger) */
+.section-card {
+  background: $bg;
+  border: 1px solid $border;
+  border-radius: 12px;
+  padding: 2rem;
+  margin: 2rem 0;
+}
+
+.section-card h3 {
+  margin-top: 0;
+}
+
+/* ========== DISCLAIMER ========== */
+.disclaimer {
+  background: $slate-50;
+  border: 1px solid $border;
+  border-radius: 10px;
+  padding: 1.25rem 1.5rem;
+  margin: 2rem 0;
   font-size: 0.85rem;
-  text-align: center;
+  color: $text-secondary;
+  line-height: 1.6;
 }
 
-/* Responsive */
+.disclaimer strong {
+  color: $slate-700;
+}
+
+/* ========== SECTIONS ========== */
+.section-intro {
+  font-size: 1.1rem;
+  color: $text-secondary;
+  max-width: 680px;
+  margin-bottom: 1.5rem;
+}
+
+.tag {
+  display: inline-block;
+  background: $emerald-50;
+  color: $emerald-700;
+  font-size: 0.75rem;
+  font-weight: 600;
+  padding: 0.2rem 0.6rem;
+  border-radius: 4px;
+  text-transform: uppercase;
+  letter-spacing: 0.3px;
+}
+
+/* Two-column layout */
+.cols {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.5rem;
+  margin: 1.5rem 0;
+}
+
+@media (max-width: 700px) {
+  .cols {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* ========== FOOTER ========== */
+.site-footer {
+  border-top: 1px solid $border;
+  padding: 2rem 0;
+  margin-top: 2rem;
+}
+
+.footer-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  font-size: 0.85rem;
+  color: $text-secondary;
+}
+
+.footer-brand {
+  font-weight: 600;
+  color: $slate-600;
+}
+
+.site-footer p {
+  margin: 0;
+}
+
+/* ========== RESPONSIVE ========== */
 @media (max-width: 768px) {
-  .main-nav {
-    display: none;
-    flex-direction: column;
-    gap: 0.75rem;
-    position: absolute;
-    top: 100%;
-    left: 0;
-    right: 0;
-    background: $primary;
-    padding: 1rem 1.5rem;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
-  }
-
-  .main-nav.open {
-    display: flex;
-  }
-
-  .nav-toggle {
-    display: block;
+  .container {
+    padding: 0 1.25rem;
   }
 
   .hero h1 {
-    font-size: 1.6rem;
+    font-size: 1.8rem;
   }
 
-  .hero p {
+  .hero .hero-subtitle {
     font-size: 1rem;
   }
 
@@ -300,8 +462,45 @@ body {
     font-size: 1.5rem;
   }
 
+  .content {
+    padding: 2rem 0 3rem;
+  }
+
+  .main-nav {
+    display: none;
+    flex-direction: column;
+    gap: 0.25rem;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background: rgba(255,255,255,0.98);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border-bottom: 1px solid $border;
+    padding: 0.75rem 1.25rem;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+  }
+
+  .main-nav.open {
+    display: flex;
+  }
+
+  .main-nav a {
+    padding: 0.5rem 0.75rem;
+  }
+
+  .nav-toggle {
+    display: block;
+  }
+
   .card-grid {
     grid-template-columns: 1fr;
+  }
+
+  .footer-inner {
+    flex-direction: column;
+    text-align: center;
   }
 }
 
@@ -309,19 +508,13 @@ body {
   .site-header, .site-footer, .nav-toggle {
     display: none;
   }
-
   .content {
     padding: 0;
   }
-
   .hero {
-    background: none;
-    color: $text;
     padding: 1rem 0;
-    border: 1px solid #ddd;
   }
-
   .hero h1 {
-    color: $text;
+    font-size: 1.5rem;
   }
 }

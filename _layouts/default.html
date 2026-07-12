@@ -4,31 +4,45 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>{{ page.title }} — {{ site.title }}</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
 </head>
 <body>
 
 <header class="site-header">
   <div class="container">
-    <a class="logo" href="{{ '/' | relative_url }}">{{ site.title }}</a>
-    <nav class="main-nav">
-      <a href="{{ '/' | relative_url }}">Home</a>
-      <a href="{{ '/legal-framework' | relative_url }}">Legal Framework</a>
-      <a href="{{ '/team-roles' | relative_url }}">Team & Roles</a>
-      <a href="{{ '/operating-agreement' | relative_url }}">Operating Agreement</a>
-      <a href="{{ '/pa-nj-context' | relative_url }}">PA/NJ Context</a>
+    <a class="logo" href="{{ '/' | relative_url }}">
+      <span class="logo-icon">◆</span>
+      <span class="logo-text">{{ site.title }}</span>
+    </a>
+    <nav class="main-nav" id="main-nav">
+      <a href="{{ '/' | relative_url }}" {% if page.url == '/' %}class="active"{% endif %}>Home</a>
+      <a href="{{ '/legal-framework' | relative_url }}" {% if page.url contains 'legal-framework' %}class="active"{% endif %}>Entity</a>
+      <a href="{{ '/legal-model' | relative_url }}" {% if page.url contains 'legal-model' %}class="active"{% endif %}>Legal Model</a>
+      <a href="{{ '/team-roles' | relative_url }}" {% if page.url contains 'team-roles' %}class="active"{% endif %}>Team</a>
+      <a href="{{ '/operating-agreement' | relative_url }}" {% if page.url contains 'operating-agreement' %}class="active"{% endif %}>Agreement</a>
+      <a href="{{ '/pa-nj-context' | relative_url }}" {% if page.url contains 'pa-nj-context' %}class="active"{% endif %}>PA/NJ</a>
     </nav>
     <button class="nav-toggle" aria-label="Menu">☰</button>
   </div>
 </header>
 
-<main class="container content">
-  {{ content }}
+<main>
+  <div class="container">
+    <article class="content">
+      {{ content }}
+    </article>
+  </div>
 </main>
 
 <footer class="site-footer">
   <div class="container">
-    <p>&copy; {{ site.time | date: '%Y' }} Distribution Governance — For informational purposes only. Not legal advice.</p>
+    <div class="footer-inner">
+      <span class="footer-brand">◆ {{ site.title }}</span>
+      <p>For informational purposes only. Not legal advice.</p>
+    </div>
   </div>
 </footer>
 
