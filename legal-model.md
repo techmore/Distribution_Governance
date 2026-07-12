@@ -209,16 +209,16 @@ Not critical for a distribution business, but worth documenting:
 
 ### Recommended Process
 
-| Step | Action | Who |
-|------|--------|-----|
-| 1 | Negotiate economic terms (who gets what) | All members |
-| 2 | Draft Operating Agreement | Attorney |
-| 3 | File Articles of Organization with PA | Attorney or members |
-| 4 | Draft side letters (vesting, carve-outs, capital) | Attorney |
-| 5 | Execute all documents | All members |
-| 6 | Open bank account, obtain EIN | Partner 1 |
-| 7 | Register for PA taxes | Partner 2 |
-| 8 | File BOI report (Corporate Transparency Act) | Partner 2 |
+| Step | Action | Who | Reference |
+|------|--------|-----|-----------|
+| 1 | Negotiate economic terms (who gets what) | All members | — |
+| 2 | Draft Operating Agreement | Attorney | [PA Multi-Member OA Template](https://eforms.com/download/2016/01/pennsylvania-multi-member-llc-operating-agreement-template.pdf) |
+| 3 | File Articles of Organization with PA | Attorney or members | [DSCB Form 15-8821 (PDF)](https://www.pa.gov/content/dam/copapwp-pagov/en/dos/programs/business/forms/offsite-forms/15-8821-Cert-of-Org-Dom-LLC.pdf) · [File Online](https://www.corporations.pa.gov/) |
+| 4 | Draft side letters (vesting, carve-outs, capital) | Attorney | — |
+| 5 | Execute all documents | All members | — |
+| 6 | Open bank account, obtain EIN | Partner 1 | [IRS EIN Application](https://www.irs.gov/businesses/small-businesses-self-employed/apply-for-an-employer-identification-number-ein-online) |
+| 7 | Register for PA taxes | Partner 2 | [PA myPATH](https://mypath.pa.gov/) |
+| 8 | File BOI report (if required) | Partner 2 | [FinCEN BOI E-Filing](https://boiefiling.fincen.gov/) · [BOI Instructions](https://www.fincen.gov/boi) |
 
 ### Timeline
 
@@ -245,6 +245,46 @@ Not critical for a distribution business, but worth documenting:
 3. **Governance:** Co-managers (Partner 1 + Partner 2), unanimous consent for major decisions
 4. **Partners:** Vesting schedules for operating members, clear carve-outs for existing businesses
 5. **Documents:** Operating Agreement + Vesting Agreement + Capital Contribution Agreement + Side Letter
+
+---
+
+## References & Templates
+
+Links to the actual forms and templates referenced throughout this site. These are the same documents your attorney will use.
+
+### PA LLC Formation
+
+| Document | Source | Link |
+|----------|--------|------|
+| Certificate of Organization (Form DSCB:15-8821) | PA Department of State | [PDF](https://www.pa.gov/content/dam/copapwp-pagov/en/dos/programs/business/forms/offsite-forms/15-8821-Cert-of-Org-Dom-LLC.pdf) |
+| Docketing Statement (Form DSCB:15-134A) | PA Department of State | [PDF](https://www.pa.gov/content/dam/copapwp-pagov/en/dos/resources/business/forms/15-134A%20Docketing%20statement%20creation.pdf) |
+| Online filing portal | PA Business One-Stop | [File Online](https://www.corporations.pa.gov/) |
+| PA LLC guide | PA Department of State | [Guide](https://www.pa.gov/agencies/dos/programs/business/types-of-filings-and-registrations/pennsylvania-limited-liability-company) |
+
+### Operating Agreement Templates
+
+| Document | Source | Link |
+|----------|--------|------|
+| PA Multi-Member LLC Operating Agreement | eForms | [PDF](https://eforms.com/download/2016/01/pennsylvania-multi-member-llc-operating-agreement-template.pdf) · [DOCX](https://eforms.com/download/2016/01/pennsylvania-multi-member-llc-operating-agreement-template.docx) |
+| PA Multi-Member LLC Operating Agreement | FreeForms | [PDF](https://freeforms.com/wp-content/uploads/2024/02/Pennsylvania-Multi-Member-LLC-Operating-Agreement-Form.pdf) · [DOCX](https://freeforms.com/wp-content/uploads/2024/02/Pennsylvania-Multi-Member-LLC-Operating-Agreement-Form.docx) |
+| General Multi-Member OA Template | PandaDoc | [Template](https://www.pandadoc.com/pennsylvania-operating-agreement-templates) |
+
+### Federal & Tax
+
+| Document | Source | Link |
+|----------|--------|------|
+| EIN Application (SS-4) | IRS | [Apply Online](https://www.irs.gov/businesses/small-businesses-self-employed/apply-for-an-employer-identification-number-ein-online) |
+| BOI Report Filing | FinCEN | [E-Filing Portal](https://boiefiling.fincen.gov/) |
+| BOI Reporting Overview | FinCEN | [Guidance](https://www.fincen.gov/boi) |
+| PA Tax Registration | PA Revenue | [myPATH Portal](https://mypath.pa.gov/) |
+
+### PA Cannabis Regulation
+
+| Document | Source | Link |
+|----------|--------|------|
+| PA Medical Marijuana Act (Act 16) | PA General Assembly | [Statute](https://www.legis.state.pa.us/cfdocs/legis/li/uconsCheck.cfm?yr=2016&sessInd=0&act=16) |
+| NJ CREAMMA (P.L. 2021, c. 16) | NJ Legislature | [Statute](https://pub.njleg.gov/bills/2020/PL21/16_.HTM) |
+| NJ CRC Licensing | NJ Cannabis Regulatory Commission | [Website](https://www.nj.gov/cannabis/) |
 
 <div class="disclaimer">
   <strong>Disclaimer:</strong> This is a conceptual legal model, not a template or recommendation for any specific situation. Every venture's circumstances are different. Engage a Pennsylvania-licensed business attorney to draft and negotiate all documents.
