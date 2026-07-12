@@ -32,6 +32,109 @@ A **multi-class LLC** solves this by letting you create separate membership clas
 
 **Recommendation:** Manager-managed. Designate Partner 1 and Partner 2 as co-managers with authority over their domains (finance and operations respectively). Major decisions (debt, new members, dissolution) require unanimous member consent.
 
+---
+
+## Membership Classes: A Practical Walkthrough
+
+### Where Do Membership Classes Live?
+
+**In the Operating Agreement, not the state filing.** Here's the split:
+
+| Document | What it does | Filed with PA? |
+|----------|-------------|----------------|
+| **Articles of Organization** | Creates the LLC. Lists name, address, registered agent. That's it. | ✅ Yes (~$125) |
+| **Operating Agreement** | Defines everything else: classes, voting, economics, transfer rules. | ❌ No — internal document |
+
+The Articles of Organization for a multi-class LLC look identical to a single-class LLC. The state doesn't need to know about your class structure. All the detail — who gets what, how voting works, what happens on exit — lives in the Operating Agreement, which only the members sign.
+
+### Concrete Example: How Classes Work with Real Numbers
+
+Let's say the venture needs $200,000 to start. Partner 1 puts in $150,000. Partners 2, 3, and 4 each put in ~$16,667.
+
+#### Step 1: Define the classes in the OA
+
+```
+Class A Units (Capital) — Issued to Partner 1
+  - Entitled to 8% preferred return before any other distributions
+  - 1 vote per unit on Major Decisions only
+  - No management authority
+
+Class B Units (Operating) — Issued to Partners 2, 3, 4
+  - Entitled to pro-rata share of remaining profits
+  - Full voting rights on ordinary and major decisions
+  - Subject to 3-year vesting with 1-year cliff
+
+Class C Units (Promote Pool) — Reserved (unissued)
+  - 15% of profits after preferred return and capital return
+  - Allocated annually by managers based on performance
+  - Non-voting
+```
+
+#### Step 2: Initial ownership
+
+| Member | Units | % | Capital | Class |
+|--------|-------|---|---------|-------|
+| Partner 1 | 150 | 45% | $150,000 | A |
+| Partner 2 | 83 | 25% | $16,667 | B |
+| Partner 3 | 67 | 20% | $16,667 | B |
+| Partner 4 | 50 | 15% | $16,667 | B |
+
+*Unit counts are proportional to capital here, but they don't have to be — you can issue units for sweat equity, IP, or relationships at a negotiated value.*
+
+#### Step 3: The waterfall in action
+
+Year 1 profit: **$100,000**. Here's how it flows:
+
+| Tier | Calculation | Amount | Recipient |
+|------|------------|--------|-----------|
+| 1. Preferred return | 8% × $150,000 (A's capital) | $12,000 | Partner 1 only |
+| 2. Return of capital | Pro rata to basis | $0 (retained) | All members |
+| 3. Promote | 15% × remaining $88,000 | $13,200 | Allocated by managers |
+| 4. Residual | Remaining $74,800 pro rata | Partners 1–4 by % | All members |
+
+Partner 1 ends up with ~$46,000, Partner 2 with ~$19,000, Partner 3 with ~$16,000, Partner 4 with ~$13,000. The preferred return compensates Partner 1 for the risk of putting up most of the capital, while the promote pool incentivizes performance.
+
+#### Step 4: Exit scenario
+
+If the company sells for **$2M** after 5 years:
+
+1. Return of capital: $200,000 returned to members pro rata
+2. Preferred return catch-up: ~$60,000–$75,000 to Partner 1 (8% compounded)
+3. Promote: 15% of remaining (~$260,000) to promote pool
+4. Residual: ~$1.48M split by ownership %
+
+Partner 1 walks away with ~$800,000–$900,000. Partners 2–4 each get ~$300,000–$500,000 depending on vesting and promote allocation.
+
+### Sample Operating Agreement Language
+
+Here's what the membership class provisions look like in a real OA (simplified):
+
+> **Section 3.1 — Classes of Membership Interests.** The Company shall have three classes of membership interests designated as follows:
+>
+> **(a) Class A Units.** Class A Units shall have a **Preferred Return** of eight percent (8%) per annum, compounded annually, on the Unreturned Capital Contribution of the holder. Class A Units shall be entitled to vote only on Major Decisions (as defined in Section 5.4) and shall have no management rights.
+>
+> **(b) Class B Units.** Class B Units shall participate in Profits and Losses pro rata with all other Class B Units and shall be subject to the vesting schedule set forth in Schedule C. Class B Units shall have full voting rights on all matters.
+>
+> **(c) Class C Units.** Class C Units shall be non-voting and shall entitle the holder to a percentage of Profits as determined annually by the Managers, not to exceed fifteen percent (15%) of Profits in any fiscal year.
+
+> **Section 4.2 — Waterfall Distribution.** Distributions shall be made in the following order:
+>
+> 1. *First*, to Class A Members, an amount equal to the accrued and unpaid Preferred Return;
+> 2. *Second*, to all Members, pro rata, an amount equal to their unreturned Capital Contributions;
+> 3. *Third*, to Class C Members, the Promote Allocation;
+> 4. *Fourth*, to all Members, pro rata in accordance with their Percentage Interests.
+
+### Key Questions to Negotiate
+
+| Question | Why It Matters |
+|----------|---------------|
+| Does the preferred return compound? | Big difference in Partner 1's payout over time |
+| Can the company skip the preferred return in lean years? | Preserves cash; may or may not accumulate |
+| Do Class B units vest? | Protects against someone leaving early with full equity |
+| Who allocates the promote pool? | Needs to be fair and transparent |
+| Can classes be converted? | Allows Class A to convert to Class B on exit for tax reasons |
+| What happens if a member stops working? | Defines whether they keep unvested units |
+
 ### Holding Company + Operating Subs
 
 If the venture expands into licensed cannabis distribution (especially NJ's Class 4 license), consider a parent-subsidiary structure:
