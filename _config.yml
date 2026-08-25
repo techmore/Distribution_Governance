@@ -1,20 +1,2 @@
-title: Distribution Governance
-description: Legal & operational framework for a multi-member distribution venture in PA & NJ
-baseurl: "/Distribution_Governance"
-url: "https://techmore.github.io"
-
-markdown: kramdown
-theme: null
-
-defaults:
-  - scope:
-      path: ""
-    values:
-      layout: default
-
-exclude:
-  - Gemfile
-  - Gemfile.lock
-  - README.md
-  - vendor
-  - prompt.md
+title: Consortium Distribution Framework
+description: Internal design document for a THCA hemp distribution purchasing consortium — governance, precedents, entity structure, and trade-off analysis
