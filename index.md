@@ -5,11 +5,11 @@ title: Home
 
 <div class="hero">
   <h1>A consortium distribution<br>membership framework.</h1>
-  <p class="hero-subtitle">Design document for a purchasing consortium serving local retailers of farm-bill-compliant THCA hemp products: many small vendors bundling their buying power into bulk-tier pricing, with a governed organization negotiating on their behalf. Internal planning reference for the founding team.</p>
+  <p class="hero-subtitle">Design document for a purchasing consortium serving independent retailers of farm-bill-compliant THCA hemp products — launching PA-only around New Hope / Bucks County, with expansion path toward Greater Philly and the tristate. Many small vendors bundling buying power into bulk-tier pricing, with a governed organization negotiating and auditing on their behalf. Internal planning reference for the founding team.</p>
   <div class="hero-actions">
-    <a href="{{ '/consortium-model' | relative_url }}" class="btn btn-primary">The Model →</a>
+    <a href="{{ '/execution-plan' | relative_url }}" class="btn btn-primary">Execution Plan →</a>
+    <a href="{{ '/consortium-model' | relative_url }}" class="btn btn-secondary">The Model →</a>
     <a href="{{ '/case-studies' | relative_url }}" class="btn btn-secondary">Historical Precedents →</a>
-    <a href="{{ '/strengths-weaknesses' | relative_url }}" class="btn btn-secondary">Honest Trade-offs →</a>
   </div>
 </div>
 
@@ -62,7 +62,8 @@ A century of group-purchasing history across healthcare, hardware, grocery, and 
 | [RFQ Bid Sheet]({{ '/rfq-bid-sheet' | relative_url }}) | Standardized vendor bidding form: compliance gate, commercial terms, quality scoring, award rules |
 | [Vendor Contract]({{ '/vendor-contract' | relative_url }}) | Supply contract skeleton: deviated pricing, purchase reports, audit penalties, MFN-lite, wind-down |
 | [State Law Matrix]({{ '/state-law-matrix' | relative_url }}) | ⚠️ Current PA/NJ/federal status — NJ ban already in force, federal redefinition Nov 2026; strategic options decision required |
+| [Execution Plan]({{ '/execution-plan' | relative_url }}) | The New Hope pilot: 8-week compressed timeline, the five founding members, operator transition, decision gates, budget |
 
 <div class="disclaimer">
-  <strong>Scope note:</strong> This document assumes the current federal framework under the 2018 Farm Bill definition of hemp (≤0.3% delta-9 THC by dry weight) and deliberately ignores pending legislative changes per team direction. All entity and legal analysis is internal planning material, not legal advice.
+  <strong>Scope note:</strong> Launch scope is PA-only (New Hope / Bucks County anchor; Greater Philly → tristate expansion path). NJ is excluded from THCA recruiting — its intoxicating-hemp ban is in force. Federal redefinition effective Nov 12, 2026 is a planned pivot gate. See the [State Law Matrix]({{ '/state-law-matrix' | relative_url }}) and [Execution Plan]({{ '/execution-plan' | relative_url }}). All entity and legal analysis is internal planning material, not legal advice.
 </div>
