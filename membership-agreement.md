@@ -65,7 +65,8 @@ This is the article that makes the model real. Tiered obligations:
 2. Board: [5–7] seats; Founding Members eligible; staggered terms; elected annually
 3. Product Committee: [3–5] member representatives control catalog awards (the healthcare-GPO lesson: users govern the catalog, negotiators execute)
 4. Conflict-of-interest policy: board members' businesses may serve as Vendors only through arm's-length competitive award, disclosed and recused
-5. Amendments: ordinary by majority; pricing/fee changes by [supermajority] with 30-day notice
+5. **Operator neutrality (mandatory):** the Administrator/Operator may hold no ownership, employment, or revenue interest in any Member or Vendor business; compensation keyed solely to member-outcome metrics ([rationale]({{ '/operator-role' | relative_url }}))
+6. Amendments: ordinary by majority; pricing/fee changes by [supermajority] with 30-day notice
 
 ## Article VIII — Compliance & Regulatory
 

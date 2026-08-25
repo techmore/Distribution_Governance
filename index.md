@@ -57,6 +57,9 @@ A century of group-purchasing history across healthcare, hardware, grocery, and 
 | [Membership Agreement]({{ '/membership-agreement' | relative_url }}) | Working skeleton: ten articles covering tiers, commitments, data rights, governance, antitrust, and the open decisions log |
 | [Financial Model]({{ '/financial-model' | relative_url }}) | Worked unit economics at 12/30/60-shop scale; breakeven sensitivity; per-member return math; falsification criteria |
 | [Banking &amp; Operations]({{ '/banking-operations' | relative_url }}) | The CRB banking problem and PA/NJ institutions that serve hemp businesses; operational stack; phased roadmap |
+| [The Operator Role]({{ '/operator-role' | relative_url }}) | The neutral professional steward: game-theory rationale (agency problem, repeated-game coordination, transaction-cost economics), why shop-ownership disqualifies, compensation design |
+| [LOI Template]({{ '/loi-template' | relative_url }}) | Member recruiting letter of intent with baseline-invoice capture and tier election |
+| [RFQ Bid Sheet]({{ '/rfq-bid-sheet' | relative_url }}) | Standardized vendor bidding form: compliance gate, commercial terms, quality scoring, award rules |
 
 <div class="disclaimer">
   <strong>Scope note:</strong> This document assumes the current federal framework under the 2018 Farm Bill definition of hemp (≤0.3% delta-9 THC by dry weight) and deliberately ignores pending legislative changes per team direction. All entity and legal analysis is internal planning material, not legal advice.

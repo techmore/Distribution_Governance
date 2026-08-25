@@ -52,6 +52,31 @@ Additional member benefits observed across every industry studied:
 
 ---
 
+## The Economics: Why This Structure Wins
+
+Four economic lenses explain why the consortium beats both solo buying and informal grouping — and why each party walks away better off.
+
+**1. Monopsony-lite (countervailing power).** Galbraith's *countervailing power* thesis: when sellers are concentrated and buyers fragmented, buyers gain welfare by organizing their own market power on the other side of the table. Forty shops facing five distributors is a seller's market; forty shops acting as one is a negotiation between equals. The consortium doesn't create monopoly — it restores bilateral market structure, which is exactly the conduct group-purchasing law permits when done through an independent negotiating entity.
+
+**2. Transaction cost economics (Coase/Williamson).** Every shop currently pays five hidden costs monthly: search (finding suppliers), bargaining (haggling alone), contracting (usually nothing enforceable), monitoring (trusting COAs), enforcement (no recourse). The consortium internalizes these once at professional quality and amortizes them across the membership — the same reason firms exist at all. This is why member savings persist even in categories where headline prices look semi-efficient.
+
+**3. Solving the collective-action problem (Olson).** Mancur Olson's core insight: large groups fail to act in their common interest because individuals free-ride. A spreadsheet group is Olson's failure case verbatim. The fix is *selective incentives* — benefits available only to contributors. Our tier ladder (Committed pricing > Member pricing), priority allocation, and rebate share are all selective incentives engineered so cooperation pays individually, not just collectively.
+
+**4. Repeated-game coordination (game theory).** Consortium purchasing is an iterated prisoner's dilemma between members and vendors. Informal groups can't sustain cooperation because defection is invisible and unpunished. The governed entity makes behavior observable (reconciliation), consequences credible (uniform enforcement), and the future valuable (multi-quarter terms) — converting defection from rational to irrational. The neutral [Operator]({{ '/operator-role' | relative_url }}) exists precisely to administer these three conditions without becoming a player themselves.
+
+### Why every party gains (not a zero-sum transfer)
+
+The critical economic point: consortium savings come substantially from **efficiency creation, not margin extraction**:
+
+- Distributors shed ~40 small-account service burdens for one wholesale relationship → real cost reduction they share with us via pricing
+- Members get price + vetting + recourse they cannot buy individually
+- Vendors get demand predictability that lowers their own inventory/production risk
+- Deadweight losses (search waste, failed batches from unvetted sources, duplicate compliance work) leave the system entirely
+
+That's why deals hold: all four parties are net-positive versus the status quo. Structures built purely on squeezing one side unravel when the squeezed side finds an alternative; structures built on efficiency compound.
+
+---
+
 ## Membership Structure
 
 ### Tiers
