@@ -60,6 +60,8 @@ A century of group-purchasing history across healthcare, hardware, grocery, and 
 | [The Operator Role]({{ '/operator-role' | relative_url }}) | The neutral professional steward: game-theory rationale (agency problem, repeated-game coordination, transaction-cost economics), why shop-ownership disqualifies, compensation design |
 | [LOI Template]({{ '/loi-template' | relative_url }}) | Member recruiting letter of intent with baseline-invoice capture and tier election |
 | [RFQ Bid Sheet]({{ '/rfq-bid-sheet' | relative_url }}) | Standardized vendor bidding form: compliance gate, commercial terms, quality scoring, award rules |
+| [Vendor Contract]({{ '/vendor-contract' | relative_url }}) | Supply contract skeleton: deviated pricing, purchase reports, audit penalties, MFN-lite, wind-down |
+| [State Law Matrix]({{ '/state-law-matrix' | relative_url }}) | ⚠️ Current PA/NJ/federal status — NJ ban already in force, federal redefinition Nov 2026; strategic options decision required |
 
 <div class="disclaimer">
   <strong>Scope note:</strong> This document assumes the current federal framework under the 2018 Farm Bill definition of hemp (≤0.3% delta-9 THC by dry weight) and deliberately ignores pending legislative changes per team direction. All entity and legal analysis is internal planning material, not legal advice.
