@@ -63,6 +63,7 @@ A century of group-purchasing history across healthcare, hardware, grocery, and 
 | [RFQ Bid Sheet]({{ '/rfq-bid-sheet' | relative_url }}) | Standardized vendor bidding form: compliance gate, commercial terms, quality scoring, award rules |
 | [Vendor Contract]({{ '/vendor-contract' | relative_url }}) | Supply contract skeleton: deviated pricing, purchase reports, audit penalties, MFN-lite, wind-down |
 | [For Vendors &amp; Distributors]({{ '/for-vendors' | relative_url }}) | The vendor-side pitch in their language: cost-to-serve arithmetic, what they get, what we ask, honest caveats |
+| [Beyond Product: Services Layer]({{ '/beyond-product' | relative_url }}) | Merchant services, IS/POS, policies &amp; procedures, community support — the four-tier expansion stack and how service vendors pay in |
 | [State Law Matrix]({{ '/state-law-matrix' | relative_url }}) | ⚠️ Current PA/NJ/federal status — NJ ban already in force, federal redefinition Nov 2026; strategic options decision required |
 | [Execution Plan]({{ '/execution-plan' | relative_url }}) | The New Hope pilot: 8-week compressed timeline, the five founding members, operator transition, decision gates, budget |
 
