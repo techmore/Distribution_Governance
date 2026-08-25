@@ -58,6 +58,7 @@ A century of group-purchasing history across healthcare, hardware, grocery, and 
 | [Financial Model]({{ '/financial-model' | relative_url }}) | Worked unit economics at 12/30/60-shop scale; breakeven sensitivity; per-member return math; falsification criteria |
 | [Banking &amp; Operations]({{ '/banking-operations' | relative_url }}) | The CRB banking problem and PA/NJ institutions that serve hemp businesses; operational stack; phased roadmap |
 | [The Operator Role]({{ '/operator-role' | relative_url }}) | The neutral professional steward: game-theory rationale (agency problem, repeated-game coordination, transaction-cost economics), why shop-ownership disqualifies, compensation design |
+| [From Shop Owner to Liaison]({{ '/shop-owner-to-liaison' | relative_url }}) | The personal case for the member considering the pivot: skills-transfer map, cross-industry operator-turned-administrator precedents, honest costs |
 | [LOI Template]({{ '/loi-template' | relative_url }}) | Member recruiting letter of intent with baseline-invoice capture and tier election |
 | [RFQ Bid Sheet]({{ '/rfq-bid-sheet' | relative_url }}) | Standardized vendor bidding form: compliance gate, commercial terms, quality scoring, award rules |
 | [Vendor Contract]({{ '/vendor-contract' | relative_url }}) | Supply contract skeleton: deviated pricing, purchase reports, audit penalties, MFN-lite, wind-down |
