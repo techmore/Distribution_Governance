@@ -54,6 +54,9 @@ A century of group-purchasing history across healthcare, hardware, grocery, and 
 | [Historical Precedents]({{ '/case-studies' | relative_url }}) | Exhaustive case studies: hospital GPOs (Vizient, Premier), hardware co-ops (Ace, True Value, Do It Best), grocery alliances (IGA, NGA), restaurant GPOs (Dining Alliance), Capper-Volstead farm co-ops |
 | [Entity Structure]({{ '/entity-structure' | relative_url }}) | The 501(c)(3) question answered honestly — including why cannabis-adjacent work likely disqualifies it — plus 501(c)(6), cooperative, and LLC alternatives compared |
 | [Strengths &amp; Weaknesses]({{ '/strengths-weaknesses' | relative_url }}) | Accurate analysis of organized consortium vs. informal spreadsheet buying groups; failure modes; when each approach is appropriate |
+| [Membership Agreement]({{ '/membership-agreement' | relative_url }}) | Working skeleton: ten articles covering tiers, commitments, data rights, governance, antitrust, and the open decisions log |
+| [Financial Model]({{ '/financial-model' | relative_url }}) | Worked unit economics at 12/30/60-shop scale; breakeven sensitivity; per-member return math; falsification criteria |
+| [Banking &amp; Operations]({{ '/banking-operations' | relative_url }}) | The CRB banking problem and PA/NJ institutions that serve hemp businesses; operational stack; phased roadmap |
 
 <div class="disclaimer">
   <strong>Scope note:</strong> This document assumes the current federal framework under the 2018 Farm Bill definition of hemp (≤0.3% delta-9 THC by dry weight) and deliberately ignores pending legislative changes per team direction. All entity and legal analysis is internal planning material, not legal advice.

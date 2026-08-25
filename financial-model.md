@@ -1,0 +1,122 @@
+---
+layout: default
+title: Financial Model
+---
+
+# Financial Model — Worked Example
+
+A unit-economics walkthrough of the consortium at three scale points, using illustrative wholesale pricing for THCA flower and vape categories. **All prices are placeholders for negotiation** — the structure is the point; the numbers get replaced with real RFQ data. Per team direction this models the current farm-bill framework only.
+
+---
+
+## Assumptions
+
+| Parameter | Value | Basis |
+|---|---|---|
+| Member count (launch / yr1 / yr2) | 12 / 30 / 60 | Recruiting targets |
+| Avg monthly THCA spend per shop | $2,500 | Typical small smoke-shop category budget |
+| Baseline "street" wholesale price, flower | $800/lb (mid-shelf indoor) | Common 2025–26 market range for compliant bulk THCA |
+| Consortium contract target | $680/lb (~15% below baseline) | Midpoint of the 10–18% savings range documented across healthcare GPOs ([precedents]({{ '/case-studies' | relative_url }})) |
+| Vendor admin fee | 2% of contract purchases | GAO weighted-average range: 1.22–2.25% |
+| Annual dues (Member tier) | $0 | Free-to-join recruiting posture (Dining Alliance model) |
+| Organization fixed costs | $4,000/mo | Part-time admin, compliance file mgmt, counsel retainer, bookkeeping |
+
+---
+
+## Scale Point 1: Launch (12 shops)
+
+Monthly aggregated volume: 12 × $2,500 = **$30,000** ($360K/yr).
+
+| Line | Monthly | Annual |
+|---|---|---|
+| Member purchases under contract | $30,000 | $360,000 |
+| Savings to members @15% ($120/lb equivalent) | $4,500 | $54,000 |
+| Avg savings per member | $375 | $4,500 |
+| Vendor admin fee income @2% | $600 | $7,200 |
+| Organization fixed costs | $4,000 | $48,000 |
+| **Organization net** | **−$3,400** | **−$40,800** |
+
+**Read:** launch is subsidized by founding capital — expected and why Founding Members exist. The recruiting pitch still works: each shop saves ~$4.5K/yr on zero fees. Note that even a single mid-size distributor will *talk* seriously at $30K/mo committed, which is enough to sign a first pilot contract.
+
+## Scale Point 2: Year One Target (30 shops)
+
+Monthly volume: **$75,000** ($900K/yr). Volume justifies deeper tiers.
+
+| Line | Monthly | Annual |
+|---|---|---|
+| Member purchases | $75,000 | $900,000 |
+| Savings @15% (assume tier holds) | $11,250 | $135,000 |
+| Avg savings per member | $375 | $4,500 |
+| Admin fee income @2% | $1,500 | $18,000 |
+| Fixed costs (+rebate admin tooling) | $5,000 | $60,000 |
+| **Organization net** | **−$3,500** | **−$42,000** |
+
+Still subsidy-dependent. This is the honest middle-of-the-model reality: **at 2% admin fees, breakeven requires roughly $200K+/mo in contract volume**, i.e., ~80 average shops.
+
+## Scale Point 3: Year Two+ (60 shops + rebate layer)
+
+Two changes: volume doubles, and the Dining-Alliance-style manufacturer rebate program comes online.
+
+| Line | Monthly | Annual |
+|---|---|---|
+| Member purchases | $150,000 | $1,800,000 |
+| Savings @15%, or better with multi-vendor competition | $22,500 | $270,000 |
+| Admin fee income @2% | $3,000 | $36,000 |
+| Rebate pass-through collected | $2,250 | $27,000 |
+| Less org retention (25%) | +$562 | +$6,750 net revenue |
+| Fixed costs (now incl. part-time ops hire) | $7,000 | $84,000 |
+| **Organization net** | **−$3,438** | **−$41,250** |
+
+Even at 60 shops, pure vendor-fee funding doesn't close the gap. Three levers, in order of preference:
+
+1. **Committed-tier dues**: if half the members take Committed tier at $50/mo for deeper pricing, that's +$750/mo — closes most of the remaining gap
+2. **Admin fee at top of market range** (3%): +$1,500/mo at this scale
+3. **Founding capital runway**: the model needs roughly $100–125K of cumulative subsidy before organic revenue covers costs
+
+### Breakeven sensitivity
+
+| Contract volume/mo | @2% fees | @3% fees | + Committed dues |
+|---|---|---|---|
+| $75K (30 shops) | −$3.5K | −$2.0K | −$1.3K |
+| $150K (60 shops) | −$3.5K | −$0.5K | +$0.3K ✅ |
+| $200K (80 shops) | $0 ✅ | +$1.5K | +$2.5K |
+
+---
+
+## Member-Side Unit Economics
+
+The per-shop story is what recruits members, and it's strong at every scale point:
+
+**Example: one smoke shop, Committed tier**
+
+| Item | Value |
+|---|---|
+| Monthly THCA purchases | $2,500 |
+| Contract price vs street ($680 vs $800/lb blended) | −15% |
+| Monthly savings | $375 |
+| Quarterly rebate share (est.) | $95/qtr → ~$32/mo |
+| Committed-tier dues | −$50/mo |
+| **Net monthly benefit** | **~$357/mo = $4,280/yr** |
+| Effective return | 14%+ on category spend, after dues |
+
+Against the alternative — the informal spreadsheet group's typical real-world outcome of nominal quotes that drift or evaporate — this is the quantified version of the [spreadsheet critique]({{ '/strengths-weaknesses' | relative_url }}): the consortium's overhead is visible, capped, and bought something measurable.
+
+## Distributor-Side Economics (why vendors sign)
+
+One distributor replacing 30 small accounts with 1 consortium account:
+
+- Order processing: 30 orders/invoices → 1 stream (even if shipped to 30 addresses, one commercial relationship)
+- Sales cost: one relationship manager vs 30 storefront calls
+- Churn: contracted quarterly minimums vs spot buyers
+- Trade-off given: ~15% margin concession on $1.8M/yr = $270K — against eliminating most cost-to-serve on that book. Vendors accept this when the aggregate is large enough and predictable. Below ~$50K/mo committed, expect resistance; the pitch is different there (pilot terms, growth commitments).
+
+---
+
+## What Would Falsify the Model
+
+Intellectual honesty checkpoints — kill or pivot criteria:
+
+- Real RFQs come back <8% below street pricing → aggregation isn't scarce enough in this category; reconsider
+- Committed-tier uptake below 30% of members → leverage never materializes; model collapses toward the spreadsheet it was built to replace
+- Vendor admin fees refused by all major distributors → funding falls entirely to dues; value prop weakens materially
+- Regulatory change mid-build (excluded from scope per team direction, but noted as the standing exogenous risk)
