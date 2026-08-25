@@ -75,11 +75,35 @@ Even at 60 shops, pure vendor-fee funding doesn't close the gap. Three levers, i
 
 ### Breakeven sensitivity
 
-| Contract volume/mo | @2% fees | @3% fees | + Committed dues |
+Fixed-cost basis: ~$5K/mo at 30-shop scale, ~$7K/mo at 60+, ~$7.5K/mo at 80 (per the scale-point tables above). Dues column assumes half of members on Committed tier at $50/mo (15/30/40 members → $750/$1,500/$2,000 per month).
+
+| Contract volume/mo | @2% fees | @3% fees | @3% + Committed dues |
 |---|---|---|---|
-| $75K (30 shops) | −$3.5K | −$2.0K | −$1.3K |
-| $150K (60 shops) | −$3.5K | −$0.5K | +$0.3K ✅ |
-| $200K (80 shops) | $0 ✅ | +$1.5K | +$2.5K |
+| $75K (30 shops) | −$3.5K | −$2.8K | −$2.0K |
+| $150K (60 shops) | −$4.0K | −$2.5K | −$1.0K |
+| $200K (80 shops) | −$3.5K | −$1.5K | +$0.5K ✅ |
+
+**Honest read — worse than the first draft of this table claimed:** pure vendor-fee funding does not reach breakeven anywhere near 80 shops; even at 3% fees plus dues the crossover lands around **$210–215K/mo (~85 shops)**. At 2% fees alone, breakeven requires roughly $375K+/mo (~150 shops) against these fixed costs. Three implications:
+
+1. Founding capital runway must bridge a longer subsidy period than the earlier scale-point narrative implied — plan for $125–150K cumulative, not $100–125K
+2. **Committed-tier conversion is a survival milestone, not an upsell** — it's the only lever that moves breakeven inside a realistic member count
+3. The alternative is cutting fixed costs: staying in the operator-built/spreadsheet tooling posture for longer (the [ops page]({{ '/banking-operations' | relative_url }}) already defers GPO platforms) keeps fixed costs nearer $4–5K/mo, pulling breakeven down toward ~60 shops with dues
+
+---
+
+## Pilot-Cohort Economics (the five)
+
+The launch cohort of 5 New Hope-area shops sits below every scale point above — worth pricing explicitly so nobody mistakes pilot results for model failure:
+
+| Line | Value |
+|---|---|
+| Aggregate volume (5 × $2,500) | ~$12.5K/mo |
+| Member savings @ realistic 10–15% pilot discount | $1,250–1,875/mo ($250–375/shop) |
+| Admin fee income @2% | $250/mo |
+| Incremental org cost (reconciliation is operator-built, near-zero marginal) | ~$0 |
+| **Purpose** | **Falsification test, not revenue** — the pilot answers "does aggregation move price ≥8%?" for ~$10K total spend |
+
+At this size distributors are being asked for pilot terms on growth potential, not buying leverage. Expect quotes between street and full tier pricing — a 10% pilot win validates the mechanism and leaves headroom that grows with membership via tier ladders.
 
 ---
 

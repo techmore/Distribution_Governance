@@ -103,7 +103,7 @@ If we launch as an LLC and convert, the sequence matters. Getting it backwards (
 
 ### State-law overlay
 
-Pennsylvania and New Jersey each impose their own nonprofit/association regimes on top of the IRC sections: PA requires nonprofit incorporation through the Department of State with its own purposes test; NJ has analogous requirements plus its public-charities registration only if soliciting public donations (we won't be). Sales-tax treatment of membership dues varies by state. **[COUNSEL]** item for whichever state we domicile in — likely PA given partner locations.
+Pennsylvania and New Jersey each impose their own nonprofit/association regimes on top of the IRC sections: PA requires nonprofit incorporation through the Department of State with its own purposes test; NJ has analogous requirements plus public-charities registration only when soliciting public donations (we won't be, and NJ is outside our launch territory per the [execution plan]({{ '/execution-plan' | relative_url }}) — NJ-facing analysis retained for the eventual tristate expansion). Sales-tax treatment of membership dues varies by state. **[COUNSEL]** item for PA domicile.
 
 ---
 

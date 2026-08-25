@@ -51,7 +51,7 @@ A century of group-purchasing history across healthcare, hardware, grocery, and 
 | Page | What it covers |
 |------|----------------|
 | [Consortium Model]({{ '/consortium-model' | relative_url }}) | How aggregated purchasing works mechanically; membership tiers; fee structures; the three-sided value flow |
-| [Historical Precedents]({{ '/case-studies' | relative_url }}) | Exhaustive case studies: hospital GPOs (Vizient, Premier), hardware co-ops (Ace, True Value, Do It Best), grocery alliances (IGA, NGA), restaurant GPOs (Dining Alliance), Capper-Volstead farm co-ops |
+| [Historical Precedents]({{ '/case-studies' | relative_url }}) | Exhaustive case studies: hospital GPO industry (1910→today), hardware co-ops (Ace, True Value, Do It Best), grocery alliances (IGA, Topco), hospitality (Avendra), education (E&I), restaurant GPOs (Dining Alliance), Capper-Volstead farm co-ops |
 | [Entity Structure]({{ '/entity-structure' | relative_url }}) | The 501(c)(3) question answered honestly — including why cannabis-adjacent work likely disqualifies it — plus 501(c)(6), cooperative, and LLC alternatives compared |
 | [Strengths &amp; Weaknesses]({{ '/strengths-weaknesses' | relative_url }}) | Accurate analysis of organized consortium vs. informal spreadsheet buying groups; failure modes; when each approach is appropriate |
 | [Membership Agreement]({{ '/membership-agreement' | relative_url }}) | Working skeleton: ten articles covering tiers, commitments, data rights, governance, antitrust, and the open decisions log |
