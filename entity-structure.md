@@ -92,6 +92,21 @@ A pragmatic sequence: launch as an LLC to prove the model, convert to 501(c)(6) 
 
 ---
 
+## Conversion Mechanics: LLC → 501(c)(6) in Practice
+
+If we launch as an LLC and convert, the sequence matters. Getting it backwards (nonprofit first, contracts second) wastes months; getting the transfer wrong creates tax exposure on appreciated value.
+
+1. **Keep early contracts assignable or re-signable.** Vendor agreements should include change-of-entity assignment rights from day one — a standard clause that costs nothing at signing and everything later.
+2. **Value transfer at conversion.** The LLC's contract book and member list are assets. Transferring them to a newly formed c6 should occur at cost/before material appreciation, ideally before major revenue — another argument for converting early rather than after the model is proven and valuable.
+3. **The c6 formation itself:** articles + bylaws drafted around "improving business conditions of the hemp retail industry" language; Form 1024 filing with Form 8718 fee; no members' tax-deduction issues since dues are ordinary business expenses.
+4. **Governance migration plan written into the LLC OA now:** how board seats convert, how founding-member economics sunset, who signs the transfer documents. Deciding this during friendly formation avoids the deadlock it causes later.
+
+### State-law overlay
+
+Pennsylvania and New Jersey each impose their own nonprofit/association regimes on top of the IRC sections: PA requires nonprofit incorporation through the Department of State with its own purposes test; NJ has analogous requirements plus its public-charities registration only if soliciting public donations (we won't be). Sales-tax treatment of membership dues varies by state. **[COUNSEL]** item for whichever state we domicile in — likely PA given partner locations.
+
+---
+
 ## Recommendation (Working Position)
 
 1. **Launch:** manager-managed LLC among the founding team, operating under published, member-visible fee schedules and a written conflict-of-interest policy. Get two or three distributor contracts live.

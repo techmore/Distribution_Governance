@@ -112,6 +112,48 @@ One distributor replacing 30 small accounts with 1 consortium account:
 
 ---
 
+## Stress Tests & Downside Scenarios
+
+The base case above assumes 15% savings hold and recruiting stays on schedule. Both assumptions deserve attack.
+
+### Scenario matrix (annual, at steady state per scenario)
+
+| Scenario | Members | Savings % | Admin fee | Org annual net | Avg member benefit |
+|---|---|---|---|---|---|
+| Base | 60 | 15% | 2% | −$41K (pre-dues) | +$4.3K |
+| Price compression | 60 | **8%** | 2% | −$41K | +$1.6K |
+| Churn stall | **35** | 15% | 2% | −$50K | +$4.5K |
+| Compression + churn | 35 | **8%** | 2% | −$50K | +$1.7K |
+| Vendor fees refused | 60 | 15% | **0%** | −$120K | +$4.3K |
+| Regulatory shock (state bans) | **15** | n/a | n/a | wind-down | n/a |
+
+**Reading the compression row:** if real RFQs return only 8% savings — entirely possible in a category where large buyers already exist and street pricing is semi-efficient — member benefit drops ~63%. $1.6K/yr still beats a spreadsheet group's zero, but barely clears recruiting friction. This is why the falsification checkpoint (RFQs <8% → pivot) sits at Phase 3 before any further spend.
+
+**The vendor-fees-refused row is the true worst case:** without admin-fee income, breakeven requires either meaningful dues across a large base or permanent subsidy. Mitigation order: (1) negotiate fees with at least one distributor even if others refuse; (2) Committed-tier dues become primary funding; (3) cap total subsidy exposure at $150K in the formation docs.
+
+### Cash-flow timeline (base case, cumulative)
+
+| Quarter | Events | Org cash position (cumulative) |
+|---|---|---|
+| Q0 | Formation, banking, counsel | −$25K (formation costs) |
+| Q1–Q2 | Seed LOIs, first RFQ, first contract signed | −$40K |
+| Q3–Q4 | Reconciliation starts; admin fees begin trickling | −$55K |
+| Yr2 Q1–Q2 | Recruit to 30; rebate program pilot | −$70K |
+| Yr2 Q3–Q6 | Scale toward 60; dues layer added | trough ≈ −$95K |
+| Yr2+ | Admin fees + dues + rebates approach fixed costs | slow climb to breakeven |
+
+**Peak capital need: roughly $100–125K over ~24 months**, consistent with the earlier estimate but now sequenced: the first RFQ (≈$10K in) is the cheap kill-switch; the expensive commitments don't arrive until after the model has been validated against real vendor pricing.
+
+### Unit-economics guardrails
+
+Three ratios to review quarterly, with tripwires:
+
+- **Savings-to-overhead ratio** = member savings ÷ org operating cost. Below 3:1 at scale → overhead isn't justified. Base case lands near 3.2:1 at 60 shops.
+- **Spend-through rate** = purchases under contract ÷ members' estimated total category spend. Below 40% → free-riding is starving leverage; trigger tier-benefit redesign.
+- **Member retention** — annual churn above 20% means the value prop isn't landing regardless of what the math says on paper.
+
+---
+
 ## What Would Falsify the Model
 
 Intellectual honesty checkpoints — kill or pivot criteria:

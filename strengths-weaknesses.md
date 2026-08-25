@@ -69,6 +69,20 @@ Advocacy without honesty is worthless. The organized model carries real costs:
 
 ---
 
+## Governance Failures from the Record
+
+The weaknesses above are abstract; these documented failures show how they play out. Each is a real pattern from group-purchasing history:
+
+**True Value's ownership decay (post-2018).** A 70-year-old retailer-owned co-op sold to private equity in 2018, then entered bankruptcy and was absorbed by rival co-op Do It Best (2024). Once ownership detached from the stores, member loyalty — the co-op's entire moat — evaporated within a few years. **Design response:** our Founding Member privileges carry sunset dates, and any sale-of-control decision requires supermajority member vote, not just board action.
+
+**The pharmacy co-op defection pattern.** Independent-drugstore buying groups lost members whenever economics tilted toward the wholesaler side of the table (higher admin fees, forced private-label purchases). **Design response:** annual audited savings statements per member (Article V of the [agreement skeleton]({{ '/membership-agreement' | relative_url }})) make drift visible before it becomes defection.
+
+**Healthcare GPO fee-opacity controversies.** The vendor-fee model drew sustained congressional and academic criticism precisely where fee disclosure was weakest; the industry's answer — mandatory written disclosure, contract-level fee caps above 3%, independent ethics initiative — is what stabilized it. **Design response:** adopt healthcare-grade transparency voluntarily rather than being forced into it by an angry member meeting.
+
+**Capper-Volstead's mushroom-co-op lesson.** One membership error voided an entire cooperative's antitrust exemption, exposing members to ruinous liability. **Design response:** annual counsel audit of membership qualification *and* a written antitrust policy with expulsion teeth (Article IX).
+
+---
+
 ## When the Lightweight Approach IS Enough
 
 For completeness — there are conditions under which a spreadsheet-style group is genuinely adequate:

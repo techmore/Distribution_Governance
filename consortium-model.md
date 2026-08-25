@@ -99,6 +99,24 @@ At minimum, a membership agreement covering:
 5. **Publish price sheets** — members order against them
 6. **Audit compliance** — verify vendors honor contract pricing and members receive it (purchase-data reconciliation)
 
+### The First RFQ: What "Good" Looks Like
+
+The pilot RFQ is the project's cheapest kill-switch (~$10K in). Structure it to maximize information:
+
+1. **Pick one category** — flower is the leading candidate: commodity-like, widest wholesale price dispersion, so consortium leverage shows up fastest and most measurably
+2. **Baseline first:** document 10+ members' actual recent purchase prices (invoices, not quotes) before any vendor talks. Without a real baseline you can't prove savings later — this is the audit foundation
+3. **Bid at least three vendors** with a standardized bid sheet: price/lb by grade band, payment terms, COA policy, batch-failure recourse, delivery terms
+4. **Score on total landed cost**, not headline price — a $700/lb vendor with net-15 terms may beat $680/lb on net-30 for cash-tight shops
+5. **Award 6 months maximum** in year one. The market reprices faster than annual contracts; don't lock into yesterday's pricing
+6. **Publish the results to all bidding vendors** (aggregate win/loss summary) — keeps losers in the game for round two and signals professionalism
+
+### Negotiating Posture With Distributors
+
+- Lead with the aggregate number and the commitment quality, not the discount ask: "$40K/month committed quarterly" opens doors that "what discount do we get?" doesn't
+- Ask for **retroactive tier ladders** (see [precedents mechanism detail]({{ '/case-studies' | relative_url }})) rather than maximum upfront depth — vendors accept contingent discounts more readily than flat ones
+- Trade data for price: monthly aggregate share-of-wallet reporting is worth basis points; individual member data is never traded
+- Keep two vendors warm per category even after awarding one — the credible alternative is the whole negotiation
+
 ### Vendor Vetting (Category-Specific)
 
 For THCA hemp products specifically, vetting is not optional window-dressing — it is a core member-protection service:
@@ -109,6 +127,27 @@ For THCA hemp products specifically, vetting is not optional window-dressing —
 - Recourse terms for failed or non-compliant batches
 
 In a market full of fly-by-night processors, "we only contract with vetted suppliers" is arguably the consortium's second-biggest value proposition after price.
+
+### Reconciliation Mechanics (the core operational discipline)
+
+The monthly reconciliation loop is what separates a consortium from a spreadsheet — it's the enforcement layer. Concretely:
+
+1. **Data acquisition:** each contracted distributor sends a line-item purchase report per member account (make this a contract deliverable, not a favor). Format: member ID, date, SKU, quantity, unit price paid.
+2. **Price audit:** script compares every line against the contract price sheet. Exceptions (price above contract) go to the vendor for credit memo within 15 days — automatic, not adversarial.
+3. **Spend-through tracking:** each Committed-tier member's quarter-to-date total vs their minimum; shortfall notices at week 10 of 13, not after quarter close.
+4. **Rebate accrual:** manufacturer-eligible lines accumulate to a quarterly payout file; ACH batch with per-member statements.
+5. **Exception log:** every dispute, credit, and shortfall recorded. This log is also the bank-compliance artifact and the annual savings-statement source.
+
+At 30 members × ~4 orders/month this is roughly 150–200 lines/month — genuinely spreadsheet-scale for one part-time administrator with a simple script. The GPO-platform decision can safely wait until volumes triple.
+
+### Compliance Calendar
+
+| Cadence | Item |
+|---|---|
+| Monthly | Price reconciliation; vendor COA spot-check on new batches |
+| Quarterly | Member savings statements; spend-through report; board meeting |
+| Semi-annual | Vendor licensure + insurance re-verification |
+| Annual | Independent savings audit; antitrust counsel review; fee disclosure statement to all members; policy re-adoption |
 
 ### Failure Modes to Design Against
 

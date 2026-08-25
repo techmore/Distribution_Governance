@@ -90,6 +90,46 @@ Buyer-side groups like GPOs operate under different doctrine (the rule of reason
 
 ---
 
+## More Named Examples Across Sectors
+
+### Hospitality: Avendra (1997– )
+
+Founded by Marriott with Hyatt and other hotel operators as a purchasing services company; grew into North America's largest hospitality GPO (acquired by Aramark in 2022). Hotels are classic fragmented buyers — thousands of properties, no individual leverage against food, linens, and MRO suppliers. Avendra aggregates their volume under negotiated supplier agreements and shares savings back. **Transferable lesson:** a GPO can be founded by the largest players *for* a fragmented market and still credibly serve small independents — founding-anchor credibility accelerates vendor participation because suppliers know committed volume is real on day one. Our four founding partners can play the Marriott role for smoke shops if they bring anchor commitments.
+
+### Foodservice distribution: Foodbuy / Dining Alliance's bigger cousins
+
+Compass Group built Foodbuy into one of the largest foodservice procurement organizations in North America by embedding group contracts across thousands of client sites — proving the model works both as a standalone membership product and as an internal capability scaled outward. The structural trick is identical everywhere: capture purchase data at line-item level, match against contracted programs, remit value quarterly.
+
+### Grocery private label: Topco Associates
+
+Less famous but arguably the deepest aggregation play: a member-owned co-op (founded 1945) through which regional grocers pool not just buying but *product development*, producing shared private-label brands none could fund alone. **Lesson:** mature consortia expand from price aggregation up the value chain into products, standards, and data services members couldn't justify individually. A plausible year-3+ evolution for us: pooled packaging/compliance testing services or a consortium house brand of lab-verified THCA products.
+
+### Education/public sector: E&I Cooperative Services
+
+Member-owned purchasing cooperative serving higher education since 1934 — nearly a century of continuous operation. Notable for its competitive-bid discipline: every contract awarded through public RFP processes with documented evaluation. **Lesson:** formalized competitive award isn't bureaucracy overhead; it's what makes vendor pricing defensible to members and auditors alike, and it protects the organization legally (documented arm's-length dealing).
+
+### Pharmacy: independent-drugstore buying cooperatives
+
+Independent pharmacies facing PBM-squeezed margins organized buying co-ops decades ago (and later wholesaler-affiliated programs like the ones behind the Good Neighbor Pharmacy and Health Mart networks) — fragmenting retail again versus consolidated wholesalers, exactly our shape. Their history adds one warning: when the co-op's economics drifted toward serving the *wholesaler's* interests rather than members', independents defected to generic alternatives. Member-first economics aren't sentimental; they're retention.
+
+---
+
+## How They Actually Make Deals Work: Mechanism Detail
+
+Across every sector above, the same five mechanisms recur. These are the working parts our negotiation playbook should copy:
+
+**1. Deviated (off-invoice) pricing.** The distributor loads consortium-specific prices onto each member's account; members order normally and see the discount automatically at order time. No rebate paperwork, no trust required — enforcement is architectural. This should be our default mechanism wherever a distributor's ordering system supports account-level price sheets; audit then just samples invoices against the loaded sheet.
+
+**2. Commitment letters vs. hard minimums.** Healthcare GPOs mostly run on *soft* commitment (members self-report expected utilization; vendors get market-share targets, not guarantees) while hardware/grocery co-ops run on *hard* capital and purchase obligations. Our Committed tier sits between: quarterly dollar minimums with grace quarters. Expect distributors to ask for share-of-wallet targets once we have reconciliation data — decide in advance whether we'll share aggregate share estimates (probably yes; individual shop data never).
+
+**3. Tier ladders inside the contract.** Vendor pricing improves retroactively as aggregate purchases cross thresholds (e.g., $500K/yr → additional 2% back). This converts recruiting success into automatic member benefit — every new shop raises everyone's effective tier. Put retroactive-tier language in our standard contract template.
+
+**4. Growth rebates.** Vendors pay extra when the account grows year-over-year — aligning the vendor toward helping us recruit. Common in restaurant GPOs. Low priority at launch; revisit past ~40 shops.
+
+**5. Multi-vendor parallel awards.** Awarding the same category to two or three vendors simultaneously, splitting share by performance. Costs a little depth of discount; buys resilience (our single-distributor-failure mitigation) and keeps competitive tension alive through the contract term instead of only at renewal.
+
+---
+
 ## Pattern Summary Across All Cases
 
 | Mechanism | Healthcare GPOs | Hardware/Grocery Co-ops | Restaurant GPOs | Farm Co-ops |
